@@ -1,0 +1,690 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+Code Interface Report for foc_algorithm
+</title>
+
+</head>
+<body ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdCodeInterface'); else local_onload();}} catch(err) {};">
+<h1>
+Code Interface Report for foc_algorithm
+</h1>
+<h3>
+Table of Contents
+</h3>
+<ul>
+<li>
+<a href="#sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</li>
+<li>
+<a href="#sec_Inports">
+Inports
+</a>
+
+</li>
+<li>
+<a href="#sec_Outports">
+Outports
+</a>
+
+</li>
+<li>
+<a href="#sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</li>
+<li>
+<a href="#sec_Data_Stores">
+Data Stores
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</h3>
+<p>
+Function: <a href="foc_algorithm_c.html#fcn_foc_algorithm_initialize">foc_algorithm_initialize</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void foc_algorithm_initialize(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Initialization entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="foc_algorithm_h.html">foc_algorithm.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="foc_algorithm_c.html#fcn_foc_algorithm_step">foc_algorithm_step</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void foc_algorithm_step(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Output entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called periodically, every 0.0001 seconds
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="foc_algorithm_h.html">foc_algorithm.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Inports">
+Inports
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:63')" name="code2model" class="code2model">&lt;S1&gt;/Udc</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Udc
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:64')" name="code2model" class="code2model">&lt;S1&gt;/Tpwm</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Tpwm
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:65')" name="code2model" class="code2model">&lt;S1&gt;/Id_ref</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Id_ref
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:66')" name="code2model" class="code2model">&lt;S1&gt;/Iq_ref</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Iq_ref
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:67')" name="code2model" class="code2model">&lt;S1&gt;/thetma</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.thetma
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:85')" name="code2model" class="code2model">&lt;S1&gt;/ia</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.ia
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:86')" name="code2model" class="code2model">&lt;S1&gt;/ib</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.ib
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:87')" name="code2model" class="code2model">&lt;S1&gt;/ic</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.ic
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:243')" name="code2model" class="code2model">&lt;S1&gt;/Rs</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Rs
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:246')" name="code2model" class="code2model">&lt;S1&gt;/Ls</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.Ls
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:245')" name="code2model" class="code2model">&lt;S1&gt;/flus</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtU.flus
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Outports">
+Outports
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:79')" name="code2model" class="code2model">&lt;S1&gt;/Tcmp1</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Tcmp1
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:80')" name="code2model" class="code2model">&lt;S1&gt;/Tcmp2</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Tcmp2
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:81')" name="code2model" class="code2model">&lt;S1&gt;/Tcmp3</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Tcmp3
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:83')" name="code2model" class="code2model">&lt;S1&gt;/sector</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.sector
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:130')" name="code2model" class="code2model">&lt;S1&gt;/Test_Ud</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Test_Ud
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:131')" name="code2model" class="code2model">&lt;S1&gt;/Test_Uq</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Test_Uq
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:133')" name="code2model" class="code2model">&lt;S1&gt;/PID_Ud</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.PID_Ud
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:134')" name="code2model" class="code2model">&lt;S1&gt;/PID_Uq</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.PID_Uq
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:137')" name="code2model" class="code2model">&lt;S1&gt;/Ialfa</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Ialfa
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:138')" name="code2model" class="code2model">&lt;S1&gt;/Ibeta</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Ibeta
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:139')" name="code2model" class="code2model">&lt;S1&gt;/Ualfa</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Ualfa
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:140')" name="code2model" class="code2model">&lt;S1&gt;/Ubeta</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.Ubeta
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('my_foc7_1:247')" name="code2model" class="code2model">&lt;S1&gt;/EKF</a>
+</td>
+<td width="26%" align="left" valign="top">
+rtY.EKF
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[4]
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</h3>
+<table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Parameter Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+Q_KI
+</td>
+<td width="26%" align="left" valign="top">
+MY_PID.Q_KI
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+Q_KP
+</td>
+<td width="26%" align="left" valign="top">
+MY_PID.Q_KP
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Data_Stores">
+Data Stores
+</a>
+
+</h3>
+<p>
+No data stores in the model; note that this report lists only data stores with non-auto storage class and global data stores
+</p>
+
+</body>
+
+</html>

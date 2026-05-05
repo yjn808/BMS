@@ -1,0 +1,27 @@
+stm32g4_foc1/commontables.o: \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\CommonTables.c \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_common_tables.c \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_math_types.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\string.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\math.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\float.h \
+  E:\KEIL\ARM\ARMCLANG\Bin\..\include\limits.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_common_tables.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_math_types.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_math_memory.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\none.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\utils.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_const_structs.c \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_const_structs.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_common_tables.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\transform_functions.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\basic_math_functions.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\complex_math_functions.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  E:\KEIL\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_mve_tables.c
